@@ -1,0 +1,61 @@
+.background{
+    background-image: url('../../images/bg-mobile-light.jpg');
+    background-repeat: no-repeat;
+    height:200px;
+    color:#fff;
+    font-weight:bold;
+    padding:20px;
+}
+
+.titleBox{
+    padding-top:30px;
+    padding-bottom:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.timeBox{
+    font-size: 28px;
+}
+
+.mainInput{
+    padding:14px;
+    width:300px;
+    border:none;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+
+.inputBox button{
+    width:30px;
+    height:40px;
+    background:linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+    border:1px solid gray;
+    cursor:pointer;
+    border-radius: 5px;
+    
+}
+
+::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+@media screen and (min-width:1200px){
+    .background{
+        background-image: url('../../images/bg-desktop-light.jpg');
+        text-align: center;
+    }
+
+    .titleBox{
+        align-items: center;
+        justify-content: center;
+        gap:100px;
+    }
+
+    .mainInput{
+        width:400px;
+    }
+}
